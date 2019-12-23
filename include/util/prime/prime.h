@@ -1,6 +1,8 @@
 #ifndef PRIME_H
 #define PRIME_H
 
-int is_prime(long n);
+#include <stdint.h>
+
+uint8_t is_prime(uint64_t n);
 
 #endif

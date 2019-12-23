@@ -9,12 +9,15 @@
 
 #include <math.h>
 
+#include "solutions/p010.h"
 #include "util/prime/prime.h"
 
-long solve_p10(void)
+#define TARGET_NUM 2000000
+
+uint64_t solve_p10(void)
 {
-  long x = 2000000;
-  long sum = 0;
+  uint64_t x = TARGET_NUM;
+  uint64_t sum = 0;
 
   // loop until limit
   for (int i = 2; i < x; i++) {

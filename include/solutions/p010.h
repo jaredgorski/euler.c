@@ -1,6 +1,8 @@
 #ifndef P010_H
 #define P010_H
 
-long solve_p10(void);
+#include <stdint.h>
+
+uint64_t solve_p10(void);
 
 #endif

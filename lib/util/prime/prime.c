@@ -4,7 +4,7 @@
 
 #include "util/prime/prime.h"
 
-int is_prime(long n)
+uint8_t is_prime(uint64_t n)
 {
   // check for quick primes
   if (n == 2 || n == 3 || n == 5) {

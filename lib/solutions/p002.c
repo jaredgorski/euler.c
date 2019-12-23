@@ -9,13 +9,17 @@
  * By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
  */
 
-long solve_p2(void)
+#include "solutions/p002.h"
+
+#define TARGET_NUM 4000000
+
+uint64_t solve_p2(void)
 {
-  long a, b, c, x, sum;
+  uint64_t a, b, c, x, sum;
 
   a = 0;
   b = 1;
-  x = 4000000;
+  x = TARGET_NUM;
   sum = 0;
 
   while (b < x) {
